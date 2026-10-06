@@ -37,3 +37,40 @@ mv newfile app
 cd app
 ls
 python3 -m http.server
+```
+
+The HTTP server successfully received a `GET` request for the hosted file from the second Linux system.
+
+### File Retrieval
+
+From the second Linux system, I used `wget` to retrieve the hosted file:
+
+```bash
+wget http://<server-ip>:8000/newfile
+```
+
+The request returned `200 OK` and the file was successfully downloaded.
+
+## Evidence
+
+### Python HTTP Server
+
+The screenshot below shows the temporary Python HTTP server running and recording the successful request for `newfile`.
+
+![Python HTTP Server](screenshots/python-http-server.png)
+
+### File Retrieval with wget
+
+The second Linux system successfully connected to the HTTP server and retrieved the file using `wget`.
+
+![File Retrieval with wget](screenshots/wget-file-transfer.png)
+
+## Security Relevance
+
+These exercises strengthened practical Linux skills relevant to IT administration and cybersecurity, particularly working from the command line, accessing remote systems, transferring files, monitoring processes and services, and reviewing system and application logs.
+
+Reviewing Apache2 access logs also provided practical experience identifying source IP addresses and requested resources, which is directly relevant to investigating activity during security monitoring.
+
+## Key Takeaway
+
+Completing Linux Fundamentals gave me greater confidence working directly with Linux systems rather than relying on graphical interfaces. I can navigate the filesystem, manage files, connect to remote systems, transfer data, inspect processes and services, and review logs when investigating system activity.
