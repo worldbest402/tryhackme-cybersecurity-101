@@ -28,17 +28,20 @@ For each major topic, I will document:
 - Cybersecurity relevance
 - Key takeaways from the exercises
 
+
 ## 📚 Progress
 
 | Topic | Status |
 |---|---|
-| Introduction to Offensive Security | ✅ Completed |
-| Introduction to Defensive Security | ✅ Completed |
-| Linux Fundamentals Part 1 | ✅ Completed |
-| Linux Fundamentals Part 2 | ✅ Completed |
-| Linux Fundamentals Part 3 | 🔄 In Progress |
+| Security Fundamentals | ✅ Completed |
+| Linux Fundamentals (Parts 1–3) | ✅ Completed |
+| Windows & Active Directory Fundamentals | ✅ Completed |
+| Command Line Fundamentals | ✅ Completed |
+| Networking Fundamentals | ✅ Completed |
+| Cryptography | ✅ Completed |
 
 This table will be expanded as I progress through additional areas of the Cyber Security 101 learning path.
+
 
 ## 📂 Documentation
 
